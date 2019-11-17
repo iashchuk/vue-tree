@@ -4,8 +4,14 @@
       <div class="navbar__content navbar-content">
         <div class="navbar__logo logo">VUE-APP</div>
         <ul class="navbar__list navbar-list">
-          <li class="navbar__item navbar-item" v-for="link in links" :key="link.title">
-            <router-link class="navbar__link navbar-link" :to="link.url">{{link.title}}</router-link>
+          <li
+            class="navbar__item navbar-item"
+            v-for="link in links"
+            :key="link.title"
+          >
+            <router-link class="navbar__link navbar-link" :to="link.url">{{
+              link.title
+            }}</router-link>
           </li>
         </ul>
       </div>
@@ -23,8 +29,8 @@ export default {
           url: "/"
         },
         {
-          title: "404",
-          url: "/not-found"
+          title: "File tree",
+          url: "/tree"
         }
       ]
     };
@@ -33,6 +39,11 @@ export default {
 </script>
 
 <style lang="scss">
+.navbar {
+  .navbar__container {
+    max-width: none;
+  }
+}
 .navbar__link {
   &.router-link-exact-active {
     color: #5247e7;
