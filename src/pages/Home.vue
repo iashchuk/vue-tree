@@ -1,6 +1,6 @@
 <template>
   <div class="page wrapper-content wrapper-content--fixed">
-    <h1 class="page__title">Vue App</h1>
+    <h1 class="page__title">Vue App: File Tree</h1>
   </div>
 </template>
 

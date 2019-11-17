@@ -2,7 +2,7 @@
   <nav class="navbar">
     <div class="navbar__container container">
       <div class="navbar__content navbar-content">
-        <div class="navbar__logo logo">VUE-APP</div>
+        <div class="navbar__logo logo">VUE-FILE-TREE-APP</div>
         <ul class="navbar__list navbar-list">
           <li
             class="navbar__item navbar-item"
